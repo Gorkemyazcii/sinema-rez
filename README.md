@@ -1,1 +1,1 @@
-# sinema-rez
+# Sinema Bileti Rezervasyon uygulaması
