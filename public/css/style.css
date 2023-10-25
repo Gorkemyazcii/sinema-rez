@@ -666,6 +666,11 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.text-teal-300 {
+  --tw-text-opacity: 1;
+  color: rgb(94 234 212 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -682,23 +687,23 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-#seat.selected{
+.seat.selected{
   background-color: rgb(10, 228, 28);
 }
 
-#seat.reserved{
+.seat.reserved{
   background-color: aliceblue;
 }
 
-#seat:nth-of-type(2){
+.seat:nth-of-type(2){
   margin-right: 20px;
 }
 
-#seat:nth-last-of-type(2){
+.seat:nth-last-of-type(2){
   margin-left: 20px;
 }
 
-#seat:not(.reserved):hover{
+.seat:not(.reserved):hover{
   cursor: pointer;
   scale: 120%;
 }
