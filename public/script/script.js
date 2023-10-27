@@ -48,13 +48,13 @@ function calculateTotal(){
         return seatsArr.indexOf(seat);
     });
 
-    console.log(selectedSeatIndexs);
+    //console.log(selectedSeatIndexs);
 
 
-
+    // Seçili koltuk sayısını alır ve selectedSeatCount değişkenine atar
     let selectedSeatCount = selectedSeats.length;
-    console.log(selectedSeatCount);
-    console.log(selectedSeats);
+    //console.log(selectedSeatCount);
+    //console.log(selectedSeats);
     //console.log(seats);
 
     let price = select.value;
