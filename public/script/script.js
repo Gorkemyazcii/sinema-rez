@@ -59,6 +59,7 @@ function calculateTotal(){
 
     // Html içerisinde belirtilmiş olan Filmlerin fiyat bilgisinin bulunduğu value değerini alır ve price değişkeni içerisine atar
     let price = select.value;
+    // Seçili koltuk sayısı ve Fiyat bilgisini sayfada göstermek için kullanılır
     count.innerText=selectedSeatCount;
     amount.innerText = selectedSeatCount *price;
 
